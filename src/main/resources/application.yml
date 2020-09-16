@@ -1,0 +1,17 @@
+spring:
+  batch:
+    initialize-schema: never
+    job.enabled: false
+  main:
+    web-application-type: none
+
+logging: 
+  pattern:
+    console: "%d{HH:mm:ss.SSS} %thread %-5level \\(%file:%line\\) %M - %msg%n"
+  level: 
+    ROOT: INFO
+    com.example: DEBUG
+
+chunk:
+  csv2tsv: 2
+  import: 10
