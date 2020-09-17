@@ -2,7 +2,7 @@
 Sample app for Spring Boot & Spring Batch.
 
 ## Command notes
-### jobConvertPersonCsv2Tsv.
+### jobConvertPersonCsv2Tsv
 
 ```
 java -jar target/spring-batch-sample-app-1.0.0-SNAPSHOT.jar --spring.batch.job.names=jobConvertPersonCsv2Tsv --spring.batch.job.enabled=true csv=src/main/resources/sample-data.csv tsv=src/main/resources/sample-data.tsv
